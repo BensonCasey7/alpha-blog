@@ -1,0 +1,64 @@
+<style>
+  body {
+    font-family: Helvetica Neue, sans-serif;
+  }
+  #header {
+    width: 1000px;
+    box-sizing: border-box;
+    background-color: #668cff;
+    text-align: center;
+    font-size: 200%;
+  }
+  #page_wrapper {
+    width: 1000px;
+    padding: 0px;
+    margin: 0px auto 0px auto;
+  }
+  #column {
+    width: 50%;
+    box-sizing: border-box;
+    float: left;
+    padding: 4px;
+  }
+  #column_header {
+    font-weight: bold;
+    text-align: center;
+  }
+  #column_body{
+    
+  }
+</style>
+
+<body>
+  <div id="page_wrapper">
+    <div id="header">
+      Home • <%= link_to 'About', about_path %>
+    </div>
+    <div id="column">
+      <div id="column_header">
+        Column 1
+      </div>
+      <div id="column_body">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla bibendum nec enim ac efficitur. Ut et nibh urna. Proin sodales id odio sit amet interdum. Nullam blandit, lectus vel consectetur viverra, eros risus efficitur elit, feugiat sodales urna justo nec nunc. In quis finibus arcu, non tincidunt nisl. Nullam ultrices sem id ornare posuere. Duis efficitur enim elit, a commodo erat pretium eget.
+        </p>
+        <p>
+          Maecenas aliquam, sapien ut pulvinar varius, ante purus blandit elit, eget suscipit lorem arcu sed mauris. Sed mollis ipsum ut feugiat sagittis. Duis tortor risus, dapibus vitae urna sit amet, eleifend fermentum nunc. Pellentesque vitae commodo tortor. Morbi egestas dolor id tellus tincidunt bibendum. Praesent feugiat lorem eu maximus euismod. Integer et ex enim.
+        </p>
+      </div>
+    </div>
+    <div id="column">
+      <div id="column_header">
+        Column 1
+      </div>
+      <div id="column_body">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla bibendum nec enim ac efficitur. Ut et nibh urna. Proin sodales id odio sit amet interdum. Nullam blandit, lectus vel consectetur viverra, eros risus efficitur elit, feugiat sodales urna justo nec nunc. In quis finibus arcu, non tincidunt nisl. Nullam ultrices sem id ornare posuere. Duis efficitur enim elit, a commodo erat pretium eget.
+        </p>
+        <p>
+          Maecenas aliquam, sapien ut pulvinar varius, ante purus blandit elit, eget suscipit lorem arcu sed mauris. Sed mollis ipsum ut feugiat sagittis. Duis tortor risus, dapibus vitae urna sit amet, eleifend fermentum nunc. Pellentesque vitae commodo tortor. Morbi egestas dolor id tellus tincidunt bibendum. Praesent feugiat lorem eu maximus euismod. Integer et ex enim.
+        </p>
+      </div>
+    </div>
+  </div>
+</body>
