@@ -1,2 +1,78 @@
+//Color Scheme #18 from https://www.canva.com/learn/website-color-schemes/
+// Screen: #C5C1C0
+// Steel: #0A1612
+// Denim: #1A2930
+// Marigold: #F7CE3E
+
+$navbar-default-bg: #0A1612;
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+#logo {
+  float: left;
+  font-size: 1.7em;
+  color: #FFF;
+  test-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+#logo:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.center {
+  text-align: center;
+}
+
+.jumbotron {
+  background-image: asset-url("jumbotron_image.jpg");
+  background-size: cover;
+  height: 550px;
+}
+
+.jumbotron h1 {
+  color: #FFF;
+  text-align: center;
+  margin-bottom: 30px;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+.btn-xlarge {
+  font-size: 1.7em;
+  background-color: #0A1612;
+  color: #FFF;
+}
+
+.btn-xlarge:hover {
+  color: #FFF;
+  background-color: #333;
+}
+
+.footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #EAEAEA;
+  color: #777;
+}
+
+.footer:hover {
+  color: #222;
+}
+
+.footer small {
+  float: left;
+}
+
+.footer ul {
+  float: right;
+  list-style: none;
+}
+
+.footer ul li {
+  float: left;
+  margin-left: 15px;
+}
