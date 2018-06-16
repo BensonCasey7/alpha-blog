@@ -9,6 +9,10 @@ $navbar-default-bg: #0A1612;
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+body {
+  background-color: #C5C1C0;
+}
+
 #logo {
   float: left;
   font-size: 1.7em;
@@ -50,6 +54,11 @@ $navbar-default-bg: #0A1612;
 .btn-xlarge:hover {
   color: #FFF;
   background-color: #333;
+}
+
+.article-meta-details {
+  border-top: 1px solid #EAEAEA;
+  margin-top: 15px;
 }
 
 .article-actions {
